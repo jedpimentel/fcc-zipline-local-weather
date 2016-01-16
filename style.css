@@ -1,0 +1,51 @@
+body {
+	background-color: #46C;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main-box {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #6090D0;
+	text-align: center;
+	padding: auto;
+	font-size: 1.5em;
+	
+}
+@media (max-width: 500px) {
+	#main-box {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#main-box > h1 {
+		margin: 0;
+		font-size: 1em;
+	}
+	#main-box > h2 {
+		margin: 0;
+	}
+}
+
+.stats{
+	display: inline-block;
+	vertical-align: middle;
+}
+.stats > p {
+	
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	background-color: #FFF;
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+}
+
+#weather-icon {
+	height: 4em;
+	
+}
+#bottom-text {
+	font-size: 0.7em;
+}
